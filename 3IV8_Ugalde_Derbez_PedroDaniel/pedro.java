@@ -95,7 +95,7 @@ class pedro{
 
                   //esto es para ver si hay un punto en el numero
                   //Alfin encontre como evitar que pongan numeros >:)
-                 while(entero!='s'){
+                 while(entero=='s'){
                    for(int l=0; i<num.length(); i++){
                       if((num.charAt(i)!='1')||(num.charAt(i)!='2')||(num.charAt(i)!='3')||(num.charAt(i)!='4')||(num.charAt(i)!='5')||(num.charAt(i)!='6')||(num.charAt(i)!='7')||(num.charAt(i)!='8')||(num.charAt(i)!='9')||(num.charAt(i)!='0')){
                           entero='n';
@@ -131,7 +131,7 @@ class pedro{
              
                  switch(medida){
                      case 1:
-                     resultado = (f-32)*(5/9);
+                     resultado = (f-32)*(.55);
                      System.out.println("Tendria :" + resultado + "Grados celcius");
                      break;
              
