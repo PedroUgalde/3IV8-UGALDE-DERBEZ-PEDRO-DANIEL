@@ -93,6 +93,7 @@ class pokedex{
                       
                      }  
                      System.out.println("has ganado");
+                     break;
                     }
 
 
